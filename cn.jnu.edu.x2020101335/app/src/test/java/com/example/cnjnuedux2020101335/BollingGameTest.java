@@ -45,7 +45,7 @@ public class BollingGameTest {
     {
         rollSpare();
         g.roll(3);
-        rollMany(17,1);
-        assertEquals(16,g.score());
+        rollMany(17,0);
+        assertEquals(13,g.score());
     }
 }
