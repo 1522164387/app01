@@ -57,4 +57,10 @@ public class BollingGameTest {
         rollMany(17,0);
         assertEquals(20,g.score());
     }
+    @Test
+    public void test5()
+    {
+        rollMany(15,10);
+        assertEquals(300,g.score());
+    }
 }
