@@ -60,7 +60,7 @@ public class BollingGameTest {
     @Test
     public void test5()
     {
-        rollMany(15,10);
+        rollMany(30,10);
         assertEquals(300,g.score());
     }
 }
